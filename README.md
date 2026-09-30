@@ -34,6 +34,16 @@ my-agent/
         ├── main.jsx
         ├── App.jsx      # 聊天界面 + SSE 流式解析
         └── index.css
+
+
+.agents/                 # OpenAI Agent 规范的项目级配置
+└── skills/              # 给各种 agent 使用的技能库
+    └── travel-planner/  # 城市旅游规划技能（先问城市 → 天气/人文/路线）
+        ├── SKILL.md     # 技能主流程（含触发描述）
+        ├── agents/
+        │   └── openai.yaml  # UI 元数据（AgentKit 规范推荐）
+        └── scripts/
+            └── amap_api.py  # 高德 API 封装：地理编码/天气/路径规划
 ```
 
 ## 快速开始（两条命令跑起来）

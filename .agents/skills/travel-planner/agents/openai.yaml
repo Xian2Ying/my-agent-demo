@@ -1,0 +1,4 @@
+name: travel-planner
+display_name: 旅游规划
+short_description: 城市旅游规划：先向你确认目的地城市，再查询未来一周天气、人文活动，并用高德规划景点路线与耗时
+default_prompt: 帮我规划去XX城市的旅游，看看未来一周的天气和有什么好玩的，顺便排一下路线
